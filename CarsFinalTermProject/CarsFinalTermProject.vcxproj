@@ -115,6 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="PickupTruck.h" />
+    <ClInclude Include="SportCar.h" />
+    <ClInclude Include="Vehicle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PickupTruck.cpp" />
+    <ClCompile Include="SportCar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
